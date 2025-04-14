@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffcc00;
+}
+
+.rodada {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 20px;
+}
+
+.rodada h2 {
+  color: #00d8ff;
+  margin-bottom: 10px;
+}
+
+.jogo {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1e1e1e;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.horario {
+  width: 80px;
+  font-weight: bold;
+}
+
+.time {
+  width: 150px;
+  text-align: center;
+}
+
+.placar {
+  width: 100px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.status {
+  width: 100px;
+  text-align: right;
+  font-style: italic;
+  color: #bbb;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+}
+
+.vencedor {
+  font-weight: bold;
+  color: #ffcc00;
+}

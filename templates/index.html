@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tabela de Jogos - Temporada 2024/25</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <div class="container">
+    <h1>Temporada 2024/25 - Tabela de Jogos</h1>
+    <div id="tabela"></div>
+  </div>
+
+  <script>
+    const logos = {
+      "Nyvelados FC": "/static/logos/nyvelados_fc.png",
+      "Desimpedidos Goti": "/static/logos/desimpedidos_goti.png",
+      "Dendele FC": "/static/logos/dendele_fc.png",
+      "Furia FC": "/static/logos/furia_fc.png",
+      "Capim FC": "/static/logos/capim_fc.png",
+      "Funkbol Clube": "/static/logos/funkbol_clube.png",
+      "LOUD SC": "/static/logos/loud_sc.png",
+      "Fluxo FC": "/static/logos/fluxo_fc.png",
+      "FC Real Elite": "/static/logos/fc_real_elite.png",
+      "G3X FC": "/static/logos/g3x_fc.png"
+    };
+
+    async function carregarTabela() {
+      const response = await fetch('/temporada_2024_25.json');
+      const dados = await response.json();
+      const container = document.getElementById('tabela');
+
+      dados.jornadas.forEach(rodada => {
+        const rodadaDiv = document.createElement('div');
+        rodadaDiv.className = 'rodada';
+
+        const titulo = document.createElement('h2');
+        titulo.textContent = `Rodada ${rodada.rodada} - ${rodada.data}`;
+        rodadaDiv.appendChild(titulo);
+
+        rodada.jogos.forEach(jogo => {
+          const jogoDiv = document.createElement('div');
+          jogoDiv.className = 'jogo';
+
+          // Determine the winner for finalized games
+          let timeCasaClass = '';
+          let timeForaClass = '';
+          if (jogo.status === 'Finalizado' && jogo.placar) {
+            if (jogo.placar[0] > jogo.placar[1]) {
+              timeCasaClass = 'vencedor';
+            } else if (jogo.placar[1] > jogo.placar[0]) {
+              timeForaClass = 'vencedor';
+            }
+          }
+
+          jogoDiv.innerHTML = `
+            <span class="horario">${jogo.horario}</span>
+            <img class="logo" src="${logos[jogo.time_casa]}" alt="${jogo.time_casa} logo" />
+            <span class="time ${timeCasaClass}">${jogo.time_casa}</span>
+            <span class="placar">${jogo.placar ? jogo.placar[0] : '-'} x ${jogo.placar ? jogo.placar[1] : '-'}</span>
+            <span class="time ${timeForaClass}">${jogo.time_fora}</span>
+            <img class="logo" src="${logos[jogo.time_fora]}" alt="${jogo.time_fora} logo" />
+            <span class="status">[${jogo.status}]</span>
+          `;
+
+          rodadaDiv.appendChild(jogoDiv);
+        });
+
+        container.appendChild(rodadaDiv);
+      });
+    }
+
+    carregarTabela();
+  </script>
+</body>
+</html>

@@ -1,0 +1,394 @@
+{
+    "temporada": "2024/25",
+    "jornadas": [
+        {
+            "rodada": 1,
+            "data": "29/03/25",
+            "jogos": [
+                {
+                    "horario": "17:00 BRA",
+                    "time_casa": "Nyvelados FC",
+                    "placar": [
+                        1,
+                        0
+                    ],
+                    "time_fora": "Desimpedidos Goti",
+                    "status": "Finalizado"
+                },
+                {
+                    "horario": "18:00 BRA",
+                    "time_casa": "Dendele FC",
+                    "placar": [
+                        2,
+                        6
+                    ],
+                    "time_fora": "Furia FC",
+                    "status": "Finalizado"
+                },
+                {
+                    "horario": "19:00 BRA",
+                    "time_casa": "Capim FC",
+                    "placar": [
+                        6,
+                        4
+                    ],
+                    "time_fora": "Funkbol Clube",
+                    "status": "Finalizado"
+                },
+                {
+                    "horario": "20:00 BRA",
+                    "time_casa": "LOUD SC",
+                    "placar": [
+                        8,
+                        4
+                    ],
+                    "time_fora": "Fluxo FC",
+                    "status": "Finalizado"
+                },
+                {
+                    "horario": "21:00 BRA",
+                    "time_casa": "FC Real Elite",
+                    "placar": [
+                        3,
+                        4
+                    ],
+                    "time_fora": "G3X FC",
+                    "status": "Finalizado"
+                }
+            ]
+        },
+        {
+            "rodada": 2,
+            "data": "31/03/25",
+            "jogos": [
+                {
+                    "horario": "17:00 BRA",
+                    "time_casa": "Dendele FC",
+                    "placar": [
+                        3,
+                        3
+                    ],
+                    "time_fora": "Fluxo FC",
+                    "status": "Finalizado"
+                },
+                {
+                    "horario": "18:00 BRA",
+                    "time_casa": "LOUD SC",
+                    "placar": [
+                        3,
+                        5
+                    ],
+                    "time_fora": "Nyvelados FC",
+                    "status": "Finalizado"
+                },
+                {
+                    "horario": "19:00 BRA",
+                    "time_casa": "Furia FC",
+                    "placar": [
+                        4,
+                        2
+                    ],
+                    "time_fora": "FC Real Elite",
+                    "status": "Finalizado"
+                },
+                {
+                    "horario": "20:00 BRA",
+                    "time_casa": "Desimpedidos Goti",
+                    "placar": [
+                        3,
+                        2
+                    ],
+                    "time_fora": "Funkbol Clube",
+                    "status": "Finalizado"
+                },
+                {
+                    "horario": "21:00 BRA",
+                    "time_casa": "G3X FC",
+                    "placar": [
+                        3,
+                        1
+                    ],
+                    "time_fora": "Capim FC",
+                    "status": "Finalizado"
+                }
+            ]
+        },
+        {
+            "rodada": 3,
+            "data": "07/04/25",
+            "jogos": [
+                {
+                    "horario": "17:00 BRA",
+                    "time_casa": "FC Real Elite",
+                    "placar": [
+                        5,
+                        2
+                    ],
+                    "time_fora": "LOUD SC",
+                    "status": "Finalizado"
+                },
+                {
+                    "horario": "18:00 BRA",
+                    "time_casa": "G3X FC",
+                    "placar": [
+                        6,
+                        3
+                    ],
+                    "time_fora": "Funkbol Clube",
+                    "status": "Finalizado"
+                },
+                {
+                    "horario": "19:00 BRA",
+                    "time_casa": "Desimpedidos Goti",
+                    "placar": [
+                        2,
+                        2
+                    ],
+                    "time_fora": "Fluxo FC",
+                    "status": "Finalizado"
+                },
+                {
+                    "horario": "20:00 BRA",
+                    "time_casa": "Dendele FC",
+                    "placar": [
+                        5,
+                        3
+                    ],
+                    "time_fora": "Capim FC",
+                    "status": "Finalizado"
+                },
+                {
+                    "horario": "21:00 BRA",
+                    "time_casa": "Furia FC",
+                    "placar": [
+                        5,
+                        0
+                    ],
+                    "time_fora": "Nyvelados FC",
+                    "status": "Finalizado"
+                }
+            ]
+        },
+        {
+            "rodada": 4,
+            "data": "14/04/25",
+            "jogos": [
+                {
+                    "horario": "17:00 BRA",
+                    "time_casa": "Capim FC",
+                    "placar": null,
+                    "time_fora": "Fluxo FC",
+                    "status": "Agendado"
+                },
+                {
+                    "horario": "18:00 BRA",
+                    "time_casa": "FC Real Elite",
+                    "placar": null,
+                    "time_fora": "Funkbol Clube",
+                    "status": "Agendado"
+                },
+                {
+                    "horario": "19:00 BRA",
+                    "time_casa": "Dendele FC",
+                    "placar": null,
+                    "time_fora": "Nyvelados FC",
+                    "status": "Agendado"
+                },
+                {
+                    "horario": "20:00 BRA",
+                    "time_casa": "Desimpedidos Goti",
+                    "placar": null,
+                    "time_fora": "G3X FC",
+                    "status": "Agendado"
+                },
+                {
+                    "horario": "21:00 BRA",
+                    "time_casa": "Furia FC",
+                    "placar": null,
+                    "time_fora": "LOUD SC",
+                    "status": "Agendado"
+                }
+            ]
+        },
+        {
+            "rodada": 5,
+            "data": "21/04/25",
+            "jogos": [
+                {
+                    "time_casa": "Fluxo FC",
+                    "placar": null,
+                    "time_fora": "Nyvelados FC",
+                    "status": "Agendado"
+                },
+                {
+                    "time_casa": "Capim FC",
+                    "placar": null,
+                    "time_fora": "FC Real Elite",
+                    "status": "Agendado"
+                },
+                {
+                    "time_casa": "Dendele FC",
+                    "placar": null,
+                    "time_fora": "Funkbol Clube",
+                    "status": "Agendado"
+                },
+                {
+                    "time_casa": "Desimpedidos Goti",
+                    "placar": null,
+                    "time_fora": "LOUD SC",
+                    "status": "Agendado"
+                },
+                {
+                    "time_casa": "G3X FC",
+                    "placar": null,
+                    "time_fora": "Furia FC",
+                    "status": "Agendado"
+                }
+            ]
+        },
+        {
+            "rodada": 6,
+            "data": "26/04/25",
+            "jogos": [
+                {
+                    "time_casa": "Funkbol Clube",
+                    "placar": null,
+                    "time_fora": "Nyvelados FC",
+                    "status": "Agendado"
+                },
+                {
+                    "time_casa": "FC Real Elite",
+                    "placar": null,
+                    "time_fora": "Fluxo FC",
+                    "status": "Agendado"
+                },
+                {
+                    "time_casa": "Dendele FC",
+                    "placar": null,
+                    "time_fora": "G3X FC",
+                    "status": "Agendado"
+                },
+                {
+                    "time_casa": "Desimpedidos Goti",
+                    "placar": null,
+                    "time_fora": "Furia FC",
+                    "status": "Agendado"
+                },
+                {
+                    "time_casa": "Capim FC",
+                    "placar": null,
+                    "time_fora": "LOUD SC",
+                    "status": "Agendado"
+                }
+            ]
+        },
+        {
+            "rodada": 7,
+            "data": "28/04/25",
+            "jogos": [
+                {
+                    "time_casa": "Desimpedidos Goti",
+                    "placar": null,
+                    "time_fora": "Dendele FC",
+                    "status": "Agendado"
+                },
+                {
+                    "time_casa": "Capim FC",
+                    "placar": null,
+                    "time_fora": "Furia FC",
+                    "status": "Agendado"
+                },
+                {
+                    "time_casa": "FC Real Elite",
+                    "placar": null,
+                    "time_fora": "Nyvelados FC",
+                    "status": "Agendado"
+                },
+                {
+                    "time_casa": "Fluxo FC",
+                    "placar": null,
+                    "time_fora": "Funkbol Clube",
+                    "status": "Agendado"
+                },
+                {
+                    "time_casa": "G3X FC",
+                    "placar": null,
+                    "time_fora": "LOUD SC",
+                    "status": "Agendado"
+                }
+            ]
+        },
+        {
+            "rodada": 8,
+            "data": "03/05/25",
+            "jogos": [
+                {
+                    "time_casa": "G3X FC",
+                    "placar": null,
+                    "time_fora": "Fluxo FC",
+                    "status": "Agendado"
+                },
+                {
+                    "time_casa": "Capim FC",
+                    "placar": null,
+                    "time_fora": "Nyvelados FC",
+                    "status": "Agendado"
+                },
+                {
+                    "time_casa": "Desimpedidos Goti",
+                    "placar": null,
+                    "time_fora": "FC Real Elite",
+                    "status": "Agendado"
+                },
+                {
+                    "time_casa": "Dendele FC",
+                    "placar": null,
+                    "time_fora": "LOUD SC",
+                    "status": "Agendado"
+                },
+                {
+                    "time_casa": "Funkbol Clube",
+                    "placar": null,
+                    "time_fora": "Furia FC",
+                    "status": "Agendado"
+                }
+            ]
+        },
+        {
+            "rodada": 9,
+            "data": "05/05/25",
+            "jogos": [
+                {
+                    "time_casa": "Capim FC",
+                    "placar": null,
+                    "time_fora": "Desimpedidos Goti",
+                    "status": "Agendado"
+                },
+                {
+                    "time_casa": "Dendele FC",
+                    "placar": null,
+                    "time_fora": "FC Real Elite",
+                    "status": "Agendado"
+                },
+                {
+                    "time_casa": "Fluxo FC",
+                    "placar": null,
+                    "time_fora": "Furia FC",
+                    "status": "Agendado"
+                },
+                {
+                    "time_casa": "Funkbol Clube",
+                    "placar": null,
+                    "time_fora": "LOUD SC",
+                    "status": "Agendado"
+                },
+                {
+                    "time_casa": "G3X FC",
+                    "placar": null,
+                    "time_fora": "Nyvelados FC",
+                    "status": "Agendado"
+                }
+            ]
+        }
+    ]
+}
